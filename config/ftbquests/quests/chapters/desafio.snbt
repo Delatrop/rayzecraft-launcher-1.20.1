@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "desafio"
+	group: "6A43071DF3DCC8D9"
+	icon: "pneumaticcraft:creative_upgrade"
+	id: "544C93A8C001C1E3"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		description: ["Esta aba &aDesafio &a+ &ffoi criada especialmente para aqueles que adoram um desafio."]
+		id: "494303C67473B616"
+		subtitle: "Para você que gosta de um desafio"
+		tasks: [{
+			id: "2E6703C56C333A8D"
+			title: "Desafio +"
+			type: "checkmark"
+		}]
+		x: -3.0d
+		y: 0.0d
+	}]
+	title: "Desafio +"
+}

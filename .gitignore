@@ -1,0 +1,25 @@
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.temp
+launcher_log.txt
+
+# Arquivos de configuração do Visual Studio
+.vs/
+*.user
+
+# Arquivos Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de backup
+*_backup.py
+
+# Arquivos temporários do Windows
+Thumbs.db
+desktop.ini
+
+# Arquivos específicos do launcher
+temp_*/

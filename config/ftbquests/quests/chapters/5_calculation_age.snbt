@@ -1,0 +1,900 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5_calculation_age"
+	group: "2F6B1FE330B2219D"
+	icon: "ae2:not_so_mysterious_cube"
+	id: "239C921C4987A477"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["52257FDA80778223"]
+			description: ["Espero que você seja bom em matemática!"]
+			id: "325605BD444D4AB0"
+			subtitle: "Ainda tem mais"
+			tasks: [{
+				id: "49CF0E636ADEDD59"
+				title: "Start Chapter"
+				type: "checkmark"
+			}]
+			title: "Iniciando"
+			x: 0.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"20E17925C8E01937"
+				"07B04478FDDFACAA"
+				"1DA27C8DD289D4F3"
+				"43AFCDFA7ACF7345"
+			]
+			description: [
+				"Você..."
+				""
+				"Você tem que continuar expandindo a fábrica."
+			]
+			icon: "kubejs:calculation_mechanism"
+			id: "33021D172E8878E4"
+			tasks: [
+				{
+					id: "4A7B18F7EB9AEDE1"
+					item: "kubejs:calculation_mechanism"
+					type: "item"
+				}
+				{
+					id: "3F5A35C4F9DBB1F4"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["33021D172E8878E4"]
+			description: [
+				"Que bom, você conseguiu."
+				""
+				"Agora você pode fazer um &6sistema do Applied&r."
+			]
+			id: "5BF4BD18436A015E"
+			shape: "rsquare"
+			tasks: [{
+				id: "7031EA90364F887B"
+				item: "ae2:not_so_mysterious_cube"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["52257FDA80778223"]
+			description: ["Mesmo tamanho, como da última vez."]
+			id: "20E17925C8E01937"
+			shape: "rsquare"
+			tasks: [{
+				id: "773222AC52CBF314"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/chromatic_resonators"
+					}
+				}
+				title: "Any Chromatic Resonator"
+				type: "item"
+			}]
+			title: "Resonator Cromático"
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"1C09C4944CCD355E"
+				"2047ED5BC1025722"
+			]
+			description: [""]
+			icon: "ae2:logic_processor"
+			id: "43AFCDFA7ACF7345"
+			tasks: [
+				{
+					id: "7C8C1D452EBB9FB1"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ae2:logic_processor"
+								}
+								{
+									Count: 1b
+									id: "kubejs:logic_processor_wafer"
+								}
+							]
+						}
+					}
+					title: "Logic Processor"
+					type: "item"
+				}
+				{
+					id: "316E134F7D2FB12C"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Processador Lógico"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1C09C4944CCD355E"
+				"1AC724A44BF86C74"
+			]
+			description: [""]
+			icon: "ae2:calculation_processor"
+			id: "07B04478FDDFACAA"
+			tasks: [
+				{
+					id: "736AD8CA7C2CF787"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ae2:calculation_processor"
+								}
+								{
+									Count: 1b
+									id: "kubejs:calculation_processor_wafer"
+								}
+							]
+						}
+					}
+					title: "Calculation Processor"
+					type: "item"
+				}
+				{
+					id: "5556694A34969CE2"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Processador de Cálculo"
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1C09C4944CCD355E"
+				"52B16095142EF424"
+			]
+			description: [""]
+			icon: "ae2:engineering_processor"
+			id: "1DA27C8DD289D4F3"
+			tasks: [
+				{
+					id: "6D92E9874B259ACF"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ae2:engineering_processor"
+								}
+								{
+									Count: 1b
+									id: "kubejs:engineering_processor_wafer"
+								}
+							]
+						}
+					}
+					title: "Engineering Processor"
+					type: "item"
+				}
+				{
+					id: "0D8882323F42918C"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Processador de Engenharia"
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["61869729796C25AB"]
+			description: ["Feito com Molten Certus Quartz em uma &6Casting Table&r usando a prensa de cálculo."]
+			icon: "ae2:printed_calculation_processor"
+			id: "36C7C15C0AC39A62"
+			tasks: [
+				{
+					id: "69181E9A92C0042C"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ae2:printed_calculation_processor"
+								}
+								{
+									Count: 1b
+									id: "kubejs:printed_calculation_processor_wafer"
+								}
+							]
+						}
+					}
+					title: "Printed Calculation Circuit"
+					type: "item"
+				}
+				{
+					id: "6318E4C788BD4E61"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Circuito de Cálculo Impresso"
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2E85CA8FECE54675"]
+			description: ["Feito com Molten Gold em uma &6Casting Table&r com uma prensa lógica."]
+			icon: "ae2:printed_logic_processor"
+			id: "64735AB276DED681"
+			tasks: [
+				{
+					id: "13356E4A11FE1D56"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ae2:printed_logic_processor"
+								}
+								{
+									Count: 1b
+									id: "kubejs:printed_logic_processor_wafer"
+								}
+							]
+						}
+					}
+					title: "Printed Logic Circuit"
+					type: "item"
+				}
+				{
+					id: "26CBA76D06CB49B1"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Circuito Lógico Impresso"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0DCD7F96839FB02B"]
+			description: ["Feito com Molten Diamond em uma &6Casting Table&r com uma prensa de engenharia."]
+			icon: "ae2:printed_engineering_processor"
+			id: "6875D32CBA0E015F"
+			tasks: [
+				{
+					id: "5817E223971FECD1"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ae2:printed_engineering_processor"
+								}
+								{
+									Count: 1b
+									id: "kubejs:printed_engineering_processor_wafer"
+								}
+							]
+						}
+					}
+					title: "Printed Engineering Circuit"
+					type: "item"
+				}
+				{
+					id: "79A45A5296AAA65D"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Circuito Impresso de Engenharia"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3EF1C5A04B24E10E"]
+			description: ["Feito com a implantação de uma prensa de silício em um inscriber de silício."]
+			icon: "ae2:printed_silicon"
+			id: "6B2F8C0DC04DA057"
+			tasks: [
+				{
+					id: "363B03C3FB0BD713"
+					item: "ae2:printed_silicon"
+					type: "item"
+				}
+				{
+					id: "284E7DEE8A639924"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Silício Impresso"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["52257FDA80778223"]
+			description: [
+				"Fizemos isso no &6Capítulo 4&r lembra? Bom provavelmente."
+				""
+				"Não lembro se você fez."
+			]
+			icon: "kubejs:abstruse_waste_bucket"
+			id: "1C09C4944CCD355E"
+			subtitle: "Tão nojento"
+			tasks: [
+				{
+					id: "310148036C5AE173"
+					item: "kubejs:abstruse_waste_bucket"
+					type: "item"
+				}
+				{
+					id: "3D0BE3D38DF3D2F0"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Balde de Lixo Abstruso"
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2D69A78F6D4F555E"]
+			description: ["Queimei o composto de silício para pegar esse cara."]
+			icon: "ae2:silicon"
+			id: "3EF1C5A04B24E10E"
+			subtitle: "Vale do Silício"
+			tasks: [
+				{
+					id: "30234B2870E63DB2"
+					item: "ae2:silicon"
+					type: "item"
+				}
+				{
+					id: "773DFA16825725D3"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Silício"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2EC7ECACA8C64880"]
+			description: [
+				"Derretendo."
+				""
+				"Sim, derretendo."
+			]
+			icon: "kubejs:molten_certus_bucket"
+			id: "61869729796C25AB"
+			subtitle: "Superderretimento"
+			tasks: [
+				{
+					id: "776F8EAF92D9F9A4"
+					item: "kubejs:molten_certus_bucket"
+					type: "item"
+				}
+				{
+					id: "1CEA3E17A7958BE4"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Balde de Certus Derretido"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["78F0F6CE6BE3168B"]
+			description: ["Este se torna seu novo básico."]
+			icon: "tconstruct:molten_gold_bucket"
+			id: "2E85CA8FECE54675"
+			subtitle: "Temperaturas não tão altas"
+			tasks: [
+				{
+					id: "74BF602E574D0F2D"
+					item: "tconstruct:molten_gold_bucket"
+					type: "item"
+				}
+				{
+					id: "560CD35E2BE9E77E"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Balde de Ouro Derretido"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["201C1E972A7885EC"]
+			description: ["Derreta &6Diamantes&r."]
+			icon: "tconstruct:molten_diamond_bucket"
+			id: "0DCD7F96839FB02B"
+			subtitle: "Eles estão chapados de novo. E você?"
+			tasks: [
+				{
+					id: "7CA80B8C8954A8FD"
+					item: "tconstruct:molten_diamond_bucket"
+					type: "item"
+				}
+				{
+					id: "588F5E7B8087C033"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Balde de Diamante Derretido"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"36DFF3E3982944FD"
+				"3BB8214617F3B855"
+			]
+			description: ["Combine pedaços de coca e areia purificada para fazer isso."]
+			icon: "kubejs:silicon_compound"
+			id: "2D69A78F6D4F555E"
+			subtitle: "Manteiga composta?"
+			tasks: [
+				{
+					id: "7A9AB53061D722FF"
+					item: "kubejs:silicon_compound"
+					type: "item"
+				}
+				{
+					id: "27323786260180F6"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Composto de Silício"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C905BBE99EAF556"]
+			description: ["Tente peneirar pedaços de areia em uma &6Sifter&r usando a Netherite Mesh."]
+			icon: "kubejs:purified_sand"
+			id: "36DFF3E3982944FD"
+			subtitle: "Isso sim é areia!"
+			tasks: [
+				{
+					id: "1158DB228ADAB581"
+					item: "kubejs:purified_sand"
+					type: "item"
+				}
+				{
+					id: "3C86C8B68B93C1FA"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Areia Purificada"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["792CCD66259F06BD"]
+			description: [
+				"Os pedaços de Coca são feitos com um processo curto de 2 etapas, mas ela precisa ser repetida várias vezes:"
+				""
+				"&6&l1.&r Serrar a Coca Polida em uma Mechanical Saw."
+				""
+				"&6&l2.&r Por último, jogar &6H2O&r(Água) sobre ela."
+			]
+			icon: "kubejs:coke_chunk"
+			id: "3BB8214617F3B855"
+			subtitle: "Processo tão longo"
+			tasks: [
+				{
+					id: "16E2F5795BB1DFA1"
+					item: "kubejs:coke_chunk"
+					type: "item"
+				}
+				{
+					id: "177CF6B7374867AC"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Pedaços de Coca"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["51A64DFC8F377F14"]
+			description: ["Pode ser feito &6lavando&r o arenito."]
+			icon: "kubejs:sand_ball"
+			id: "7037302B8C2694EE"
+			subtitle: "Substituto perfeito para as bolas de neve"
+			tasks: [
+				{
+					id: "5759D7F2726CE28A"
+					item: "kubejs:sand_ball"
+					type: "item"
+				}
+				{
+					id: "17EF9D5FE88110FB"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Bola de Areia"
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["325605BD444D4AB0"]
+			description: ["Se o Capítulo 2 produz mais coca que usa. Você pode aproveitá-la aqui."]
+			icon: "kubejs:polished_coke"
+			id: "792CCD66259F06BD"
+			subtitle: "A melhor Coca disponível"
+			tasks: [{
+				id: "42C82FB16DA45033"
+				title: "Automated"
+				type: "checkmark"
+			}]
+			title: "Coca Polida"
+			x: -4.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7037302B8C2694EE"]
+			description: ["Bola de Areia pode ser cortada em Pedaços de Areia."]
+			icon: "kubejs:rough_sand"
+			id: "0C905BBE99EAF556"
+			subtitle: "Usar em vez de bolas de neve? isso machucaria!"
+			tasks: [
+				{
+					id: "734CE1D9C83F5CC7"
+					item: "kubejs:rough_sand"
+					type: "item"
+				}
+				{
+					id: "40C2FF9E0584859D"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Pedaços de Areia"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2B7780ADC68F3E8F"]
+			description: ["Você sabe como fazer arenito, não é?"]
+			icon: "minecraft:sandstone"
+			id: "51A64DFC8F377F14"
+			subtitle: "Bem embalado"
+			tasks: [
+				{
+					id: "5CBC5C653D7391DB"
+					item: "minecraft:sandstone"
+					type: "item"
+				}
+				{
+					id: "04A5D20C9307D3B0"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Arenito"
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["38F5E619902249C0"]
+			description: [
+				"Triturar Cascalho?"
+				""
+				"DICA: Se você ainda não começou a usar o &6link de EMC&r, deveria. Tipo, por favoooorrr!!!"
+			]
+			icon: "minecraft:sand"
+			id: "2B7780ADC68F3E8F"
+			subtitle: "Este também tem"
+			tasks: [{
+				id: "59342ABCB2F2D08B"
+				title: "Automated"
+				type: "checkmark"
+			}]
+			title: "Areia"
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["155318044955E7FB"]
+			description: ["Esmagar Pedregulhos?"]
+			icon: "minecraft:gravel"
+			id: "38F5E619902249C0"
+			subtitle: "Por que você ainda tem gravidade?"
+			tasks: [{
+				id: "312EE6C38AD601EC"
+				title: "Automated"
+				type: "checkmark"
+			}]
+			title: "Cascalho"
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["325605BD444D4AB0"]
+			description: [
+				""
+				"                        ...."
+				""
+				"                       &6&lNÃO!&r"
+			]
+			icon: "minecraft:cobblestone"
+			id: "155318044955E7FB"
+			subtitle: "elbboC"
+			tasks: [{
+				id: "10ED8ABC82BA7055"
+				title: "Automated"
+				type: "checkmark"
+			}]
+			title: "Pedregulho"
+			x: -1.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["325605BD444D4AB0"]
+			description: ["Se você quiser automatizar isso sem &6Link de EMC&r. Vá em frente."]
+			icon: "ae2:certus_quartz_crystal"
+			id: "2EC7ECACA8C64880"
+			subtitle: "Pontudo"
+			tasks: [{
+				id: "35BF90F42619FDD9"
+				title: "Automated"
+				type: "checkmark"
+			}]
+			title: "Certus Quartz Crystal"
+			x: 0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["065CE6560F385C25"]
+			description: [
+				"Feito por... Você advinhou - &6Lavando&r Netherrack triturado."
+				""
+				"OBS: O subproduto é crucial para a produção de Blaze Cakes."
+			]
+			icon: "minecraft:gold_nugget"
+			id: "78F0F6CE6BE3168B"
+			subtitle: "Mais pepiras? Para quê?"
+			tasks: [
+				{
+					id: "41BE4647034AFD9E"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "7700331A0CD64F55"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Pepita de Ouro"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A7D10FED1E2F5CD"]
+			description: ["Esmague um pouco de Netherrack."]
+			icon: "exdeorum:crushed_netherrack"
+			id: "065CE6560F385C25"
+			subtitle: "Ah, este tem também"
+			tasks: [
+				{
+					id: "6672510246A9ED39"
+					item: "exdeorum:crushed_netherrack"
+					type: "item"
+				}
+				{
+					id: "04FE21AEA8BCE603"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["325605BD444D4AB0"]
+			description: ["Vá para p &6Nether &rou combine Água de Bruxa e Lava em um barril de pedra."]
+			icon: "minecraft:netherrack"
+			id: "5A7D10FED1E2F5CD"
+			subtitle: "Direto do inferno!"
+			tasks: [
+				{
+					id: "75E942C9BB94D8F2"
+					item: "minecraft:netherrack"
+					type: "item"
+				}
+				{
+					id: "0C0E744A5135B2D1"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["325605BD444D4AB0"]
+			description: ["Você já deveria ter esse cara."]
+			icon: "minecraft:diamond"
+			id: "201C1E972A7885EC"
+			subtitle: "Frequentemente Superestimados."
+			tasks: [
+				{
+					id: "51B4192A7FC0A239"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "48D7175A74E34E48"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Diamante"
+			x: 3.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6B2F8C0DC04DA057"]
+			description: [
+				"Combine 9 para formar 1."
+				""
+				"Efetivamente 9x &6mais rápido&r."
+			]
+			id: "25158067E46CA06D"
+			shape: "rsquare"
+			subtitle: "Eficiente?"
+			tasks: [{
+				id: "364D5757BE389840"
+				item: "kubejs:printed_silicon_wafer"
+				type: "item"
+			}]
+			title: "Forma Alternativa de Prensar"
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6B2F8C0DC04DA057"
+				"36C7C15C0AC39A62"
+			]
+			description: ["Feito pela implantação de um circuito de cálculo impresso em um silício prensado."]
+			icon: "kubejs:broken_calculation_processor"
+			id: "1AC724A44BF86C74"
+			subtitle: "Quebrado? E agora?"
+			tasks: [{
+				id: "469856BC31A191EC"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "kubejs:broken_calculation_processor"
+							}
+							{
+								Count: 1b
+								id: "kubejs:broken_calculation_processor_wafer"
+							}
+						]
+					}
+				}
+				title: "Broken Calculation Processor"
+				type: "item"
+			}]
+			title: "Processador de Cálculo Quebrado"
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"6B2F8C0DC04DA057"
+				"64735AB276DED681"
+			]
+			description: ["Feito pela implantação de um processador lógico em um silício prensado."]
+			icon: "kubejs:broken_logic_processor"
+			id: "2047ED5BC1025722"
+			subtitle: "Está quebrado? É inútil"
+			tasks: [{
+				id: "6A8ACB2DEE5C1C88"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "kubejs:broken_logic_processor"
+							}
+							{
+								Count: 1b
+								id: "kubejs:broken_logic_processor_wafer"
+							}
+						]
+					}
+				}
+				title: "Broken Logic Processor"
+				type: "item"
+			}]
+			title: "Processador Lógico Quebrado"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"6B2F8C0DC04DA057"
+				"6875D32CBA0E015F"
+			]
+			description: ["Feito implantando um circuito de engenharia em um silício prensado."]
+			icon: "kubejs:broken_engineering_processor"
+			id: "52B16095142EF424"
+			subtitle: "Você pode consertar, certo?"
+			tasks: [{
+				id: "295C5F859DE7313D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "kubejs:broken_engineering_processor"
+							}
+							{
+								Count: 1b
+								id: "kubejs:broken_engineering_processor_wafer"
+							}
+						]
+					}
+				}
+				title: "Broken Engineering Processor"
+				type: "item"
+			}]
+			title: "Processador de Engenharia Quebrado"
+			x: 3.5d
+			y: 4.5d
+		}
+	]
+	title: "5. Era do Cálculo"
+}

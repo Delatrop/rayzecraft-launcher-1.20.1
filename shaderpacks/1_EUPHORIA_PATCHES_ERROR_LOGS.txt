@@ -1,0 +1,3 @@
+2025-08-01 19:11:49 [ERROR] EuphoriaPatcher: You need to have ComplementaryShaders_r5.5.1 installed!
+2025-08-01 19:11:49 [ERROR] EuphoriaPatcher: Found older version: ComplementaryReimagined_r5.4.zip
+2025-08-01 19:11:49 [ERROR] EuphoriaPatcher: Please update to specifically ComplementaryShaders_r5.5.1 from https://www.complementary.dev/ and place it into your shaderpacks folder.

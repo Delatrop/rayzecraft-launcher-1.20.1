@@ -1,0 +1,125 @@
+========================================
+RAYZE CRAFT LAUNCHER - ATUALIZAÇÃO 1.20.1
+========================================
+
+📅 Data: 03/08/2025
+👤 Modificado por: Warp AI Agent
+🎯 Objetivo: Atualizar launcher de Minecraft 1.12.2 para 1.20.1
+
+========================================
+ALTERAÇÕES REALIZADAS
+========================================
+
+1. INTERFACE DO USUÁRIO
+   ✅ Atualizada exibição da versão de "Minecraft 1.12.2" para "Minecraft 1.20.1"
+   ✅ Mantida compatibilidade com o design neon existente
+
+2. CAMINHOS DE ARQUIVOS
+   ✅ Java Runtime: Atualizado de "jre-legacy" para "java-runtime-gamma"
+   ✅ Versão Forge: Atualizada de "1.12.2-forge-14.23.5.2860" para "1.20.1-forge-47.2.0"
+   ✅ Diretórios de natives e bibliotecas atualizados
+
+3. BIBLIOTECAS E DEPENDÊNCIAS
+   ✅ Lista completa de JARs atualizada para Minecraft 1.20.1:
+       - Forge 1.20.1-47.2.0
+       - LWJGL 3.3.1 (atualizado de 2.9.4)
+       - Log4j 2.19.0 (atualizado de 2.15.0)
+       - Netty 4.1.77.Final (atualizado de 4.1.9.Final)
+       - ASM 9.5 (atualizado de 5.2)
+       - Guava 31.1-jre (atualizado de 21.0)
+       - E muitas outras dependências modernas
+
+4. CONFIGURAÇÕES DE JAVA
+   ✅ JVM Arguments otimizados para Minecraft 1.20.1:
+       - Removido: ConcMarkSweepGC (descontinuado)
+       - Adicionado: G1GC com configurações otimizadas
+       - Adicionado: -Dlog4j2.formatMsgNoLookups=true (segurança)
+       - Configurações G1GC para melhor performance
+
+5. LAUNCHER CLASS
+   ✅ Main Class atualizada:
+       - De: "net.minecraft.launchwrapper.Launch"
+       - Para: "cpw.mods.bootstraplauncher.BootstrapLauncher"
+
+6. ARGUMENTOS DE LANÇAMENTO
+   ✅ Novos argumentos necessários para 1.20.1:
+       - --clientId
+       - --xuid
+       - --launchTarget forgeclient
+       - Asset Index atualizado de "1.12" para "5"
+
+========================================
+ARQUIVOS CRIADOS/MODIFICADOS
+========================================
+
+📄 MODIFICADOS:
+   - rayze_launcher_neon.py (versão principal atualizada)
+   - launcher_config.json (adicionadas novas configurações)
+
+📄 CRIADOS:
+   - rayze_launcher_neon_1.12.2_backup.py (backup da versão original)
+   - rayze_launcher_neon_1.20.1.py (versão 1.20.1)
+   - MUDANÇAS_VERSAO_1.20.1.txt (esta documentação)
+
+========================================
+COMO USAR
+========================================
+
+1. VERSÃO 1.20.1 (NOVA):
+   → Execute: rayze_launcher_neon.py
+   → Ou: rayze_launcher_neon_1.20.1.py
+
+2. VERSÃO 1.12.2 (ORIGINAL):
+   → Execute: rayze_launcher_neon_1.12.2_backup.py
+
+========================================
+REQUISITOS PARA MINECRAFT 1.20.1
+========================================
+
+💻 JAVA:
+   - Java 17 ou superior (recomendado: Java 17)
+   - Minecraft 1.20.1 não funciona com Java 8
+
+🎮 MINECRAFT:
+   - Minecraft 1.20.1 oficial
+   - Forge 47.2.0 para Minecraft 1.20.1
+   - Assets do Minecraft 1.20.1
+
+📁 ESTRUTURA ESPERADA:
+   C://rayzecraft//rayzecraft-main/
+   ├── runtime/java-runtime-gamma/
+   ├── versions/1.20.1-forge-47.2.0/
+   ├── libraries/ (com todas as dependências 1.20.1)
+   ├── assets/
+   └── mods/ (para mods compatíveis com 1.20.1)
+
+========================================
+NOTAS IMPORTANTES
+========================================
+
+⚠️  COMPATIBILIDADE:
+   - Mods da versão 1.12.2 NÃO funcionarão na 1.20.1
+   - É necessário baixar versões compatíveis dos mods
+   - Mundos antigos podem precisar de migração
+
+🔧 CONFIGURAÇÕES:
+   - RAM recomendada aumentada (mínimo 2GB, recomendado 4GB+)
+   - Performance otimizada com G1GC
+   - Segurança melhorada com Log4j 2.19.0
+
+🎯 PRÓXIMOS PASSOS:
+   1. Verificar se o servidor RayzeCraft suporta 1.20.1
+   2. Atualizar mods para versões compatíveis
+   3. Testar o launcher com os arquivos do Minecraft 1.20.1
+
+========================================
+SUPORTE TÉCNICO
+========================================
+
+Se encontrar problemas:
+1. Verifique se tem Java 17+ instalado
+2. Confirme que os arquivos do Minecraft 1.20.1 estão no diretório correto
+3. Verifique os logs em launcher_log.txt
+4. Use o backup (1.12.2) se necessário
+
+Sucesso na sua jornada no Minecraft 1.20.1! 🎮✨

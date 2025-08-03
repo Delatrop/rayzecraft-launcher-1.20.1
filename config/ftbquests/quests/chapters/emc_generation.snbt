@@ -1,0 +1,313 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "emc_generation"
+	group: "051AA46D917B6FBA"
+	icon: "projecte:condenser_mk2"
+	id: "6D3F69E89440D884"
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["717DBB5C0E84A4C1"]
+			disable_toast: true
+			id: "78C6A43A07801340"
+			tasks: [{
+				id: "2C893F4700D1F9CE"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			title: "Ametista"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3BEFC529E2FFF030"]
+			description: [
+				"&9Bulk Haunting&ré uma ótima maneira de gerar EMC."
+				""
+				"Coloque uma fogueira de almas em frente a um ventilador em funcionamento."
+			]
+			disable_toast: true
+			icon: "minecraft:soul_campfire"
+			id: "717DBB5C0E84A4C1"
+			tasks: [
+				{
+					id: "058D097772BFC5A9"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					id: "6D3F6ADD7CDB4074"
+					item: "minecraft:soul_campfire"
+					type: "item"
+				}
+			]
+			title: "Bulk Haunting"
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["78C6A43A07801340"]
+			disable_toast: true
+			id: "65FD7B55865F32BD"
+			tasks: [{
+				id: "6593B05285E09805"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["717DBB5C0E84A4C1"]
+			disable_toast: true
+			id: "2044C63096770A6D"
+			tasks: [{
+				id: "33F2DA51B47DABF2"
+				item: "minecraft:ink_sac"
+				type: "item"
+			}]
+			title: "Tinta de Lula"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2044C63096770A6D"]
+			disable_toast: true
+			id: "3BFAC8C84FDBA444"
+			tasks: [{
+				id: "64295F63D4396AFC"
+				item: "minecraft:glow_ink_sac"
+				type: "item"
+			}]
+			title: "Tinta de Lula Brilhante"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["717DBB5C0E84A4C1"]
+			disable_toast: true
+			id: "55C4A8161FF04D58"
+			tasks: [{
+				id: "7491EE6B76A30AF6"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["55C4A8161FF04D58"]
+			description: ["Please note: output chance is only 25%!"]
+			disable_toast: true
+			id: "307F3720FC03E80C"
+			tasks: [{
+				id: "3ACCB3E550459EBB"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			title: "Pérola do Fim"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["717DBB5C0E84A4C1"]
+			disable_toast: true
+			id: "2E6983510573C540"
+			tasks: [{
+				id: "1A4F2F70FB6A9762"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			title: "Redstone"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2E6983510573C540"]
+			disable_toast: true
+			id: "2996BA5D5832F599"
+			tasks: [{
+				id: "12DD5D9175E6A4B0"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3BEFC529E2FFF030"]
+			description: [
+				"Equipe um &6Deployer&r com estrela do nether e acerte m item com ela para transformá-lo."
+				""
+				"A estrela do nether não é consumida no processo."
+			]
+			disable_toast: true
+			icon: "minecraft:nether_star"
+			id: "2568549C723AF9FC"
+			tasks: [
+				{
+					id: "093AC64FFD105733"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					id: "704B7E5FAEE16E2D"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			title: "Transformação da Estrela do Nether"
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2568549C723AF9FC"]
+			disable_toast: true
+			id: "4EC1DC671EB1B33B"
+			tasks: [{
+				id: "6DFC4709E01288D6"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Diamante"
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4EC1DC671EB1B33B"]
+			disable_toast: true
+			id: "6C0446057DBBC8FD"
+			tasks: [{
+				id: "1F32F81D94810AAD"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "Esmeralda"
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Nem todas as opções podem estar presentes aqui, então verifique o &6JEI&r."
+				""
+				"Para automatizar o processo de geração de EMC, use os Links de EMC para importar e exportar itens diretamente de seu e/ou para seu armazenamento EMC."
+			]
+			disable_toast: true
+			id: "3BEFC529E2FFF030"
+			tasks: [{
+				icon: "ftbquests:book"
+				id: "414CF988A4A3202A"
+				stat: "minecraft:play_time"
+				title: "Read Carefully"
+				type: "stat"
+				value: 1
+			}]
+			title: "Geração de EMC"
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3BEFC529E2FFF030"]
+			disable_toast: true
+			id: "5E5F7A25E3492C81"
+			tasks: [{
+				id: "70F7EA1EB41694A7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "cagedmobs:cages"
+					}
+				}
+				title: "Mob Cage"
+				type: "item"
+			}]
+			title: "Jaula de Mobs"
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5E5F7A25E3492C81"]
+			description: [
+				"Obtido através de:"
+				"- Wandering Trader"
+				"- Villager"
+				"- Vindicator"
+				"- Evoker"
+			]
+			disable_toast: true
+			id: "0655C4F1FD50E475"
+			tasks: [{
+				id: "6BFF7D8B074E88FA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "Esmeralda"
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3BEFC529E2FFF030"]
+			description: ["Na dimensão do End, &6Bases de Laser&rgeram minérios de &5Draconic&r."]
+			disable_toast: true
+			id: "17C6C26A79F10BBD"
+			tasks: [{
+				id: "4D8665A8254B170E"
+				item: "industrialforegoing:ore_laser_base"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["17C6C26A79F10BBD"]
+			disable_toast: true
+			id: "2ED86ED704DCA9E9"
+			tasks: [{
+				id: "415ED27A705AAC2C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ores/draconium"
+					}
+				}
+				title: "Draconium Ore"
+				type: "item"
+			}]
+			title: "Minério Dracônico"
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2ED86ED704DCA9E9"]
+			disable_toast: true
+			id: "7C93CB7864C979CD"
+			tasks: [{
+				id: "33A49F61CE7983D5"
+				item: "draconicevolution:draconium_dust"
+				type: "item"
+			}]
+			title: "Pó Dracônico"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3BEFC529E2FFF030"]
+			description: ["&6Adquira&r este item com a &6Staff&r."]
+			icon: "projectexpansion:final_power_flower"
+			id: "44068D3C91AD5C0A"
+			subtitle: "Geração Passiva e apelão"
+			tasks: [{
+				id: "3B982993BE6A0897"
+				type: "checkmark"
+			}]
+			title: "Power Flower"
+			x: 11.0d
+			y: -4.0d
+		}
+	]
+	title: "Geração de EMC"
+}

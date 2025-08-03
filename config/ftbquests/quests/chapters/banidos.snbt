@@ -1,0 +1,45 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "banidos"
+	group: ""
+	icon: "minecraft:barrier"
+	id: "3ABB587DF74EB789"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Aqui postaremos todas as atualizações do modpack e do servidor."]
+			id: "066DAE35D84573F7"
+			subtitle: "Leia com atenção"
+			tasks: [{
+				id: "23ED0AD55C759E8D"
+				title: "LEIA"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["066DAE35D84573F7"]
+			description: [
+				"Acabamos de lançar o servidor e desejamos uma ótima jogatina para todos."
+				""
+				"&bAcesse &bnosso &3discord &bpara &buma &bmelhor &bexperiência."
+				""
+				"&lModpack &lcriado &lpor: &2Davi_MCST"
+			]
+			id: "2674E8BA5FBC07A3"
+			subtitle: "Versão 1.0"
+			tasks: [{
+				id: "4ADD4DFE2A743FE4"
+				title: "Lançamento"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: -3.0d
+		}
+	]
+	subtitle: ["Modpack/Servidor"]
+	title: "&4ATUALIZAÇÕES"
+}

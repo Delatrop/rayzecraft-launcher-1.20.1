@@ -1,0 +1,29 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "enigmatic_legacy"
+	group: "02FE661031A105D8"
+	icon: "enigmaticlegacy:blazing_core"
+	id: "0B0A1AD2378316FA"
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"O Enigmatic Legacy é um mod de magia que utiliza as maldições do minecraft como base."
+			""
+			"&4TENHA CUIDADO AO USAR ESTE MOD."
+		]
+		icon: "enigmaticlegacy:golem_heart"
+		id: "7297F6D4404773CC"
+		subtitle: "Em Desenvolvimento"
+		tasks: [{
+			id: "5E1F3F504C5341B8"
+			title: "Enigmatica Legacy["
+			type: "checkmark"
+		}]
+		title: "Enigmatic Legacy"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Enigmatic Legacy"
+}

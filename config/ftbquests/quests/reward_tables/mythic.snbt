@@ -1,0 +1,19 @@
+{
+	icon: "minecraft:nether_star"
+	id: "481E10AEAC95C550"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ item: "mekanism:pellet_antimatter" }
+		{ item: "mysticalagriculture:awakened_supremium_block", random_bonus: 1 }
+		{ item: "mysticalagriculture:allthemodium_seeds", weight: 3.0f }
+		{ item: "mysticalagriculture:vibranium_seeds", weight: 3.0f }
+		{ item: "mysticalagriculture:unobtainium_seeds", weight: 3.0f }
+		{ item: "mekanism:ultimate_induction_cell", weight: 2.0f }
+		{ item: "mekanism:ultimate_induction_provider", weight: 2.0f }
+		{ item: "botania:dice", weight: 2.0f }
+		{ count: 36, item: "powah:reactor_nitro", weight: 2.0f }
+	]
+	title: "&5Mythic Reward"
+	use_title: true
+}

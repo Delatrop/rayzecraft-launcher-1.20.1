@@ -1,0 +1,870 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6_abstruse_age"
+	group: "2F6B1FE330B2219D"
+	icon: "kubejs:abstruse_machine"
+	id: "6264A218E2069DB9"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5BF4BD18436A015E"]
+			description: [
+				"Neste capítulo, você precisa realizar algumas operações matemáticas, bem como alguns cálculos Booleanos!"
+				""
+				"Você tem total liberdade em como fazer isso."
+				""
+				"&6Divirta-se&r!"
+			]
+			id: "2E8778D432B12A09"
+			tasks: [{
+				id: "374CE40934CB995D"
+				title: "Start Chapter"
+				type: "checkmark"
+			}]
+			title: "Iniciando"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["576B2716D30C74CB"]
+			description: ["Elas podem ser usadas para criar as máquinas industriais mais simples."]
+			id: "2E6CE520086D8586"
+			shape: "rsquare"
+			subtitle: "Agora começa a parte interessante"
+			tasks: [{
+				id: "3B32476FCA9650B4"
+				item: "kubejs:abstruse_machine"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"093939204AD0D6C0"
+				"578CFA9452732B7E"
+				"0BBE04B9EFDEEFA0"
+			]
+			description: [
+				"Aposto que sua fábrica já está bem grande."
+				""
+				"Se o desempenho estiver começando a piorar, considere expandir um pouco suas linhas de montagem."
+				""
+				"E se o desempenho de seu computador começar a piorar, experimente fazer um upgrade nele, seu &6abestado&r."
+				""
+				"Agora você tem muitas opções para transferir tudo sem fio."
+			]
+			icon: "kubejs:abstruse_mechanism"
+			id: "576B2716D30C74CB"
+			tasks: [
+				{
+					id: "5C9BCF7E5E58CD9B"
+					item: "kubejs:abstruse_mechanism"
+					type: "item"
+				}
+				{
+					id: "60F64F3B2DD09FCB"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"7B6ACD7ADD5DE33E"
+				"02BF2A9AA4214BA7"
+				"1310A3ECC10F5090"
+				"695C45867737D934"
+				"5E76742299D40DED"
+				"0FE9149C3B9186B1"
+				"41D1058AA0FDDC3A"
+				"17652A1E7B8B35FF"
+				"758349AB312334BE"
+				"316465E9167266FE"
+			]
+			description: [
+				"Crie a Liga da Matrix colocando todos os líquidos criados anteriormente em uma única &6smeltery&r."
+				""
+				"Cabe a você descobrir como colocar a matriz no balde."
+			]
+			icon: "kubejs:matrix_bucket"
+			id: "093939204AD0D6C0"
+			subtitle: "Não beba a matriz"
+			tasks: [
+				{
+					id: "6F50DA08B5FD63C4"
+					item: "kubejs:matrix_bucket"
+					type: "item"
+				}
+				{
+					id: "1F7DC34A9EDE4D9F"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Balde de Matriz de Computação Liquifeita"
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["70D4D7DC1155F946"]
+			description: [
+				"Várias maneiras de fazer o 0."
+				""
+				"Escolha a que você gosta."
+			]
+			icon: "kubejs:zero"
+			id: "7B6ACD7ADD5DE33E"
+			subtitle: "Nada representado por algo."
+			tasks: [
+				{
+					id: "28FA409A989612A1"
+					item: "kubejs:zero"
+					type: "item"
+				}
+				{
+					id: "54A60EA8189BFA0A"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["70D4D7DC1155F946"]
+			description: [
+				"Existem várias maneiras de obter o 1."
+				""
+				"Escolha a que você gosta."
+			]
+			icon: "kubejs:one"
+			id: "02BF2A9AA4214BA7"
+			tasks: [
+				{
+					id: "5CCE4F5A3ED858E5"
+					item: "kubejs:one"
+					type: "item"
+				}
+				{
+					id: "19B49A36CEA5BFC9"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Um"
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["70D4D7DC1155F946"]
+			description: [
+				"Existem várias maneiras de obter o 2."
+				""
+				"Escolha a que você gosta."
+			]
+			icon: "kubejs:two"
+			id: "1310A3ECC10F5090"
+			subtitle: "Assuma o esforço e dobre-o"
+			tasks: [
+				{
+					id: "2E130A43E4D3F300"
+					item: "kubejs:two"
+					type: "item"
+				}
+				{
+					id: "4AFD826BB7035299"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Dois"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["552F8C2C880166A7"]
+			description: [
+				"Existem várias maneiras de obter o 3"
+				""
+				"Escolha a que você gosta."
+			]
+			icon: "kubejs:three"
+			id: "64BF76E7FA414649"
+			subtitle: "<&63&r"
+			tasks: [
+				{
+					id: "013A0D91B55E0307"
+					item: "kubejs:three"
+					type: "item"
+				}
+				{
+					id: "33EDCFC1C95750C7"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Três"
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["70D4D7DC1155F946"]
+			description: [
+				"Existem várias maneiras de obter o 4."
+				""
+				"Escolha a que você gosta."
+			]
+			icon: "kubejs:four"
+			id: "695C45867737D934"
+			subtitle: "Isso mesmo, vai para o buraco quadrado"
+			tasks: [
+				{
+					id: "310DE8757E7C46C6"
+					item: "kubejs:four"
+					type: "item"
+				}
+				{
+					id: "5A9320B5384238FD"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Quatro"
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["70D4D7DC1155F946"]
+			description: [
+				"Existem várias maneiras de obter o 5."
+				""
+				"Escolha a que você gosta."
+			]
+			icon: "kubejs:five"
+			id: "5E76742299D40DED"
+			subtitle: "Five nights? Harr harr harr"
+			tasks: [
+				{
+					id: "79F2DD69AE8C9E23"
+					item: "kubejs:five"
+					type: "item"
+				}
+				{
+					id: "286210B22BEB441D"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Cinco"
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["70D4D7DC1155F946"]
+			description: [
+				"Existem várias maneiras de obter o 6."
+				""
+				"Escolha a que você gosta."
+			]
+			icon: "kubejs:six"
+			id: "0FE9149C3B9186B1"
+			subtitle: "Provavelmente o melhor número"
+			tasks: [
+				{
+					id: "4C735707FEB651F6"
+					item: "kubejs:six"
+					type: "item"
+				}
+				{
+					id: "58B8DEC7DD23302A"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Seis"
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["70D4D7DC1155F946"]
+			description: [
+				"Existem várias maneiras de obter o 7."
+				""
+				"Escolha a que você gosta."
+			]
+			icon: "kubejs:seven"
+			id: "41D1058AA0FDDC3A"
+			subtitle: "Sete almas humanas são necessárias para quebrar a barreira"
+			tasks: [
+				{
+					id: "4ECC8D069C089B83"
+					item: "kubejs:seven"
+					type: "item"
+				}
+				{
+					id: "7A69C70E73239978"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Sete"
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["552F8C2C880166A7"]
+			description: [
+				"Existem várias maneiras de obter o &68&r."
+				""
+				"Escolha a que você gosta!"
+			]
+			icon: "kubejs:eight"
+			id: "5B4056D7CA4530C4"
+			subtitle: "Incline a cabeça e você verá o infinito!"
+			tasks: [
+				{
+					id: "0FC770661DA03FC7"
+					item: "kubejs:eight"
+					type: "item"
+				}
+				{
+					id: "5152F9D40565B965"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Oito"
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["70D4D7DC1155F946"]
+			description: [
+				"Existem várias maneiras de obter o 9."
+				""
+				"Escolha a que você gosta."
+			]
+			icon: "kubejs:nine"
+			id: "17652A1E7B8B35FF"
+			subtitle: "O maior número de um único digito"
+			tasks: [
+				{
+					id: "19C17AA8B0B09190"
+					item: "kubejs:nine"
+					type: "item"
+				}
+				{
+					id: "060BA1CD0D986B94"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Nove"
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2E8778D432B12A09"]
+			description: [
+				"Os projetos de algumas casts se perderam no contínuo espaço-tempo."
+				""
+				"Você precisa provar sua capacidade de resolver problemas matemáticos básicos e intermediários."
+			]
+			id: "0B12B976E0EBAE0A"
+			shape: "rsquare"
+			subtitle: "<&63&r"
+			tasks: [{
+				id: "61FC1D5595CDA091"
+				item: "kubejs:three_cast"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2E8778D432B12A09"]
+			description: ["Agora tente obter 10 números, 2 estados booleanos e 15 símbolos. De apenas 2 números."]
+			id: "225891006A2AC89D"
+			shape: "rsquare"
+			subtitle: "A calculadora pode te ajudar se você estiver travado"
+			tasks: [{
+				id: "4BAFEE0440AD4E3F"
+				item: "kubejs:eight_cast"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2E8778D432B12A09"]
+			description: ["Plus Cast é usado para fazer o sinal de adição."]
+			id: "0F7DDA78A13D7FFC"
+			shape: "rsquare"
+			subtitle: "Mantenha-se positivo"
+			tasks: [{
+				id: "7ACC13B6EB028159"
+				item: "kubejs:plus_cast"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2E8778D432B12A09"]
+			description: ["O Minus Cast é usado para fazer o sinal de subtração."]
+			id: "7729657E979AE027"
+			shape: "rsquare"
+			subtitle: "Negativo"
+			tasks: [{
+				id: "037A4F12EB6953E4"
+				item: "kubejs:minus_cast"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2E8778D432B12A09"]
+			description: ["O Divide Cast é usado para fazer o sinal de divisão."]
+			id: "5C13BA5CFC7A7908"
+			shape: "rsquare"
+			subtitle: "Divididos pelo oceano mas unidos pelo Minecraft"
+			tasks: [{
+				id: "1E3CCFC8F51DB31E"
+				item: "kubejs:divide_cast"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2E8778D432B12A09"]
+			description: ["O Multiply Cast é usado para fazer o sinal de multiplicação."]
+			id: "60693DBE2262B78A"
+			shape: "rsquare"
+			subtitle: "Multiplas horas de diversão pela frente"
+			tasks: [{
+				id: "2EB73829FDAE6AB7"
+				item: "kubejs:multiply_cast"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0B12B976E0EBAE0A"
+				"225891006A2AC89D"
+				"0F7DDA78A13D7FFC"
+				"7729657E979AE027"
+				"5C13BA5CFC7A7908"
+				"60693DBE2262B78A"
+				"0C356AEF65F9421E"
+				"15315D63C8875CE4"
+				"46B2F134D5278D1E"
+				"06D2A8F8EEED2FD5"
+				"7FDCA6288E7EA08D"
+			]
+			description: [
+				"Este líquido é semelhante à Matrix Líquida em estrutura, mas faltam alguns elementos principais."
+				""
+				"Sua tarefa é extrair tudo o que puder dele para completar a estrutura."
+			]
+			icon: "kubejs:raw_logic_bucket"
+			id: "552F8C2C880166A7"
+			subtitle: "Beleza bruta da matemática"
+			tasks: [
+				{
+					id: "2607C704CAB5C6FD"
+					item: "kubejs:raw_logic_bucket"
+					type: "item"
+				}
+				{
+					id: "254ABEBF39F0E77B"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Balde de Liquified Logic (Unprocessed)"
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5BF4BD18436A015E"]
+			description: ["Estou começando a achar que é algo mais do que apena sum ímã."]
+			id: "578CFA9452732B7E"
+			shape: "rsquare"
+			subtitle: "Ressonância da matriz"
+			tasks: [{
+				id: "104E8435778E96BA"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/chromatic_resonators"
+					}
+				}
+				title: "Any Chromatic Resonator"
+				type: "item"
+			}]
+			title: "Resonador Cromático"
+			x: 4.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["093939204AD0D6C0"]
+			description: [
+				"A Matriz Líquida usa uma barra de matriz de cristal como catalizador para endurecer e assumir uma forma sólida."
+				""
+				"O lado bom é que esse processo não destrói sua barra, o que significa que você pode reutilizá-lo quantas vezes quiser."
+			]
+			id: "26E19614D31B5F7F"
+			subtitle: "Agora você está no controle da matriz"
+			tasks: [{
+				id: "6DE3DF498A459C71"
+				item: "kubejs:computation_matrix"
+				type: "item"
+			}]
+			title: "Matriz de Computação"
+			x: 2.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["552F8C2C880166A7"]
+			description: ["Lembre-se que o 9 é o maior número que você pode obter."]
+			id: "3B811C618C88B679"
+			subtitle: "+1"
+			tasks: [{
+				id: "54B3F63CCC51FA2E"
+				item: "kubejs:plus"
+				type: "item"
+			}]
+			title: "Mais"
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["552F8C2C880166A7"]
+			description: ["Subtrair é seguro, mas você não pode ir abaixo de &60&r."]
+			id: "24B852898662A844"
+			subtitle: "Não relacionado a elétrons"
+			tasks: [{
+				id: "571FBBB758B7CCA6"
+				item: "kubejs:minus"
+				type: "item"
+			}]
+			title: "Menos"
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["552F8C2C880166A7"]
+			description: [
+				"Cuidado!"
+				""
+				"Dividindo por 0 você pode obter um &4Unforeseen Consequences&r."
+			]
+			id: "7D55551FC4D093FB"
+			subtitle: "Dividir e conquistar"
+			tasks: [{
+				id: "3AFD5A47913000D9"
+				item: "kubejs:divide"
+				type: "item"
+			}]
+			title: "Divisão"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["552F8C2C880166A7"]
+			description: ["Sim, você pode &6multiplicar &ros números."]
+			id: "71E947CAE871BF0E"
+			subtitle: "Como coelhos"
+			tasks: [{
+				id: "563781A38F5439AF"
+				item: "kubejs:multiply"
+				type: "item"
+			}]
+			title: "Multiplicação"
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"64BF76E7FA414649"
+				"5B4056D7CA4530C4"
+				"3B811C618C88B679"
+				"24B852898662A844"
+				"7D55551FC4D093FB"
+				"71E947CAE871BF0E"
+				"1018568DF4291BDA"
+				"14CF5B44C7FF5F67"
+				"157DB63F2E8ADBD4"
+				"5B6CE05FFE16C9BE"
+				"2DC1819D10F9C676"
+			]
+			description: ["Todas as operações matemáticas também podem ser feitas em uma &6Basic Crafting Table&r."]
+			id: "70D4D7DC1155F946"
+			subtitle: "Dificuldades técnicas"
+			tasks: [{
+				id: "47B2E6F38C2161CA"
+				title: "Understood"
+				type: "checkmark"
+			}]
+			title: "Informações Gerais"
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["552F8C2C880166A7"]
+			description: [
+				"Fatorial é uma operação um tanto complicada."
+				""
+				"O fatorial de número inteiro \"n\" é definido como o produto de todos os inteiros positivos de 1 a n. Por exemplo?"
+				""
+				"&6 5i = 5*4*3*2*1 = 120&r."
+			]
+			id: "14CF5B44C7FF5F67"
+			subtitle: "5! != 5"
+			tasks: [{
+				id: "2859167322F50D71"
+				item: "kubejs:factorial"
+				type: "item"
+			}]
+			title: "Fatorial"
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["552F8C2C880166A7"]
+			description: ["A potência (ou exponente) de um número indica quantas vezes usar o número em uma multiplicação."]
+			id: "157DB63F2E8ADBD4"
+			subtitle: "Go, go &6Power&rrangers"
+			tasks: [{
+				id: "3DD6FA18B64D0D6F"
+				item: "kubejs:power"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["552F8C2C880166A7"]
+			description: [
+				"Resto é uma operação bem engraçada na verdade."
+				""
+				"É melhor mostrar em um exemplo:"
+				""
+				"3:2 = 1,5"
+				""
+				"Esta equação também pode ser formada como segue abaixo:"
+				""
+				"3:2 = 1r.1"
+				""
+				"&6r&r significa &nresto&r. Veja mais alguns exemplos:"
+				""
+				"5%2 = 1"
+				""
+				"16%6 = 4"
+				""
+				"19%20 = 19"
+				""
+				"A operação &6Resto&r retorna, bem, o resto da divisão."
+			]
+			id: "1018568DF4291BDA"
+			subtitle: "Mantenha o foco"
+			tasks: [{
+				id: "217F4A3C21B0A3C1"
+				item: "kubejs:remainder"
+				type: "item"
+			}]
+			title: "Resto"
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["552F8C2C880166A7"]
+			description: ["Raíz quadrada na verdade siginifica \"elevado a (1/2)\"."]
+			id: "2DC1819D10F9C676"
+			subtitle: "Deve ser difícil para as plantas desenvolverem raízes quadradas."
+			tasks: [{
+				id: "127C8EBE1FA8E110"
+				item: "kubejs:square_root"
+				type: "item"
+			}]
+			title: "Raíz Quadrada"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2E8778D432B12A09"]
+			description: ["Factorial Cast é usado para fazer o sinal fatorial."]
+			id: "15315D63C8875CE4"
+			shape: "rsquare"
+			subtitle: "Sua fábrica está crescendo?"
+			tasks: [{
+				id: "349747C12A7F5D98"
+				item: "kubejs:factorial_cast"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2E8778D432B12A09"]
+			description: ["O Power Cast é usado para fazer o sinal de potência."]
+			id: "46B2F134D5278D1E"
+			shape: "rsquare"
+			subtitle: "Powah???"
+			tasks: [{
+				id: "5AB8DE2E0BD3DBF5"
+				item: "kubejs:power_cast"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2E8778D432B12A09"]
+			description: ["O Remainder Cast é usado para fazer o sinal de resto."]
+			id: "0C356AEF65F9421E"
+			shape: "rsquare"
+			subtitle: "The stranger I remain"
+			tasks: [{
+				id: "00623EC453D488F3"
+				item: "kubejs:remainder_cast"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2E8778D432B12A09"]
+			description: ["Square Root Cast é usado para obter o sinal de raíz quadrada."]
+			id: "06D2A8F8EEED2FD5"
+			shape: "rsquare"
+			subtitle: "No Minecraft, até as raízes são quadradas."
+			tasks: [{
+				id: "2022A7F7AC53B69D"
+				item: "kubejs:square_root_cast"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["552F8C2C880166A7"]
+			description: [
+				"Ao juntar dois símbolos =, você obtém um operador para comparar dois dados, incluindo números e expressões."
+				""
+				"Um computador por assim dizer."
+			]
+			id: "5B6CE05FFE16C9BE"
+			subtitle: "Se você já escreveu um código, conhecerá esse!"
+			tasks: [{
+				id: "4EDD985B3681B63C"
+				item: "kubejs:equal"
+				type: "item"
+			}]
+			title: "Igual"
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2E8778D432B12A09"]
+			description: ["Equal Cast é usado para fazer o sinal de igualdade."]
+			id: "7FDCA6288E7EA08D"
+			shape: "rsquare"
+			subtitle: "Eu escrevo descrições de missões e você às lê. Nós não somos iguais."
+			tasks: [{
+				id: "25F536A845A5DD8E"
+				item: "kubejs:equal_cast"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["70D4D7DC1155F946"]
+			description: [
+				"Existem várias maneiras de obter o verdadeiro."
+				""
+				"Escolha a que você gosta."
+			]
+			icon: "kubejs:true"
+			id: "758349AB312334BE"
+			subtitle: "É verdade que você gosta desse modpack"
+			tasks: [
+				{
+					id: "11662822883BD5EA"
+					item: "kubejs:true"
+					type: "item"
+				}
+				{
+					id: "0F461B8CDE299349"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Verdadeiro"
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["70D4D7DC1155F946"]
+			description: [
+				"Existem várias maneiras de obter o falso."
+				""
+				"Escolha a que você gosta."
+			]
+			icon: "kubejs:false"
+			id: "316465E9167266FE"
+			subtitle: "É falso que Fornite é melhor que Minecraft"
+			tasks: [
+				{
+					id: "6FC8C578067137E8"
+					item: "kubejs:false"
+					type: "item"
+				}
+				{
+					id: "78D28324230CE986"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Falso"
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			description: [
+				"O &6Time In A Bottle&r armazena tempo dentro si. "
+				""
+				"Quanto mais você ficar online, mais tempo ele armazena e você pode usar esse tempo para acelerar várias coisas. Tais como máquinas, plantas, absolutamente de tudo."
+				""
+				"Você pode acelerar as coisas em até 256x por um curto período, ou seja, por um curto período de tempo sua máquina ficará 256x mais rápida."
+				""
+				"Mas lembre-se que isso gasta o tempo acumulado dentro dele e como você acelera, o gasto de energia, mágia,... aumenta também."
+			]
+			id: "0BBE04B9EFDEEFA0"
+			tasks: [{
+				id: "02042FEEF00E4B56"
+				item: {
+					Count: 1
+					id: "tiab:time_in_a_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Time In A Bottle"
+			x: 1.0d
+			y: 13.5d
+		}
+	]
+	title: "6. Era Abstrusa"
+}

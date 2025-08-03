@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "avaritia"
+	group: "6A43071DF3DCC8D9"
+	icon: "avaritia:infinity_ingot"
+	id: "7574AA2BA7E8677B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: ["O Avaritia é o último mod a ser mechido no modpack, ele adiciona armas, ferramentas e armadura extremamente apelão."]
+		id: "49CAD6A94DF5E663"
+		subtitle: "Em Desenvolvimento"
+		tasks: [{
+			id: "7622D91438E82040"
+			title: "Avaritia"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Avaritia"
+}

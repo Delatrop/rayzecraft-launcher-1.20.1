@@ -1,0 +1,245 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7_integrated_age"
+	group: "2F6B1FE330B2219D"
+	icon: "kubejs:integrated_machine"
+	id: "2FE28779E7E367D2"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["39DA9F7639D6AD78"]
+			description: ["O fim de mais um capítulo. Assim mesmo. Não foi tão difícil, foi?"]
+			id: "09CD8EB06036A1C4"
+			shape: "rsquare"
+			tasks: [{
+				id: "340ABD62DFB86C15"
+				item: "kubejs:integrated_machine"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2E6CE520086D8586"]
+			description: ["Nossa, cara, você est´á indo longe. Continue assim!"]
+			id: "342C68B775AAD6FC"
+			subtitle: "Mais uma!"
+			tasks: [{
+				id: "115A6385522B2961"
+				title: "Start Chapter"
+				type: "checkmark"
+			}]
+			title: "iniciando"
+			x: 1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"4FB684E7281BF230"
+				"5DF8DBD5A4EE1943"
+				"20317A92BD9A8AC5"
+			]
+			description: ["EXPANDA! EXPANDA! EXPANDA!!!!!"]
+			icon: "create_dreams_and_desires:integrated_mechanism"
+			id: "39DA9F7639D6AD78"
+			subtitle: "Sonhando com seus desejos"
+			tasks: [
+				{
+					id: "7AF607AE0F20C39D"
+					item: "create_dreams_and_desires:integrated_mechanism"
+					type: "item"
+				}
+				{
+					id: "39CFA6879FD69044"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2E6CE520086D8586"]
+			description: [
+				"Esta calculadora também pode ser usada para simplificar algumas de suas operações com os números."
+				""
+				"O termo \"&6Sequência Fibonacci&r\" lhe diz alguma coisa?"
+			]
+			id: "4FB684E7281BF230"
+			shape: "rsquare"
+			subtitle: "Ferramenta confiável para matemática"
+			tasks: [{
+				id: "18CC1688A1D22ECC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/calculators"
+					}
+				}
+				title: "Any Calculator"
+				type: "item"
+			}]
+			title: "Calculadora de Fibonacci"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4C846C447750DDC2"]
+			description: ["Apenas cozinhe a borracha seca."]
+			icon: "industrialforegoing:plastic"
+			id: "5DF8DBD5A4EE1943"
+			subtitle: "Não jogue no mar!"
+			tasks: [
+				{
+					id: "06D2D79C686D8B5B"
+					item: "industrialforegoing:plastic"
+					type: "item"
+				}
+				{
+					id: "442B4C754A9C948A"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Plástico"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"7615113F775FAB67"
+				"1703708CBC9B2247"
+			]
+			description: [
+				"Feito simplesmente colocando látex e água em uma Unidade de Processamento de Látex. Lembre-se de forncer energia."
+				""
+				"750mb de látex + 500mb de água = 1 Borracha Seca"
+			]
+			icon: "industrialforegoing:dryrubber"
+			id: "4C846C447750DDC2"
+			subtitle: "Elástica"
+			tasks: [
+				{
+					id: "5050F42331B09B3D"
+					item: "industrialforegoing:dryrubber"
+					type: "item"
+				}
+				{
+					id: "58CCDEE9D1DCDC77"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Borracha Seca"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["342C68B775AAD6FC"]
+			description: ["Usado para fazer borracha seca."]
+			id: "7615113F775FAB67"
+			shape: "rsquare"
+			subtitle: "BeEp bOOp bo0P"
+			tasks: [{
+				id: "67B68EDE4E4E52C7"
+				item: "industrialforegoing:latex_processing_unit"
+				type: "item"
+			}]
+			title: "Unidade de Processamento de Látex"
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5E0D79B5243A491C"]
+			description: [
+				"Ao colocar qualquer tipo de tronco na frente do extrator de fluídos, faremos látex."
+				""
+				"NOTA: O extrator de fluídos funciona mais rápido quando energizado."
+			]
+			icon: "industrialforegoing:latex_bucket"
+			id: "1703708CBC9B2247"
+			subtitle: "Liquido de Árvore"
+			tasks: [
+				{
+					id: "469A4842EB613501"
+					item: "industrialforegoing:latex_bucket"
+					type: "item"
+				}
+				{
+					id: "4A4323A1DBA7B817"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Balde de Látex"
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["342C68B775AAD6FC"]
+			description: ["Usado para fazer látex."]
+			id: "5E0D79B5243A491C"
+			shape: "rsquare"
+			subtitle: "Sua primeira máquina industrial"
+			tasks: [{
+				id: "747E523F5A5BE989"
+				item: "industrialforegoing:fluid_extractor"
+				type: "item"
+			}]
+			title: "Extrator de Fluídos"
+			x: -0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["431301D20ABE6ABD"]
+			description: [
+				"Sobreccaregado significa superabastecido de energia."
+				""
+				"Então acho que nós dois sabemos como fazer."
+			]
+			icon: "powah:crystal_nitro"
+			id: "20317A92BD9A8AC5"
+			subtitle: "Prefiro não tocar nisso"
+			tasks: [
+				{
+					id: "253133F9FEC2EC9E"
+					item: "powah:crystal_nitro"
+					type: "item"
+				}
+				{
+					id: "0B9CD7A2B88C24FA"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Fluix Crystal Sobrecarregado"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["342C68B775AAD6FC"]
+			description: ["A Wiki do &6AE2&r tem muitas informações sobre esse fenômeno não natural."]
+			icon: "ae2:fluix_crystal"
+			id: "431301D20ABE6ABD"
+			subtitle: "Totalmente sintético"
+			tasks: [
+				{
+					id: "7852013DEB889D5F"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+				{
+					id: "7677CD27CAB37D46"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: 3.5d
+			y: -9.0d
+		}
+	]
+	title: "7. Era Integrada"
+}

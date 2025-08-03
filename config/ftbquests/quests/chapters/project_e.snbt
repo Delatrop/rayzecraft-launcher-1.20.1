@@ -1,0 +1,30 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "project_e"
+	group: "6A43071DF3DCC8D9"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			Parent: { }
+		}
+		id: "projecte:philosophers_stone"
+		tag: { }
+	}
+	id: "46C13DBC2210F777"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		description: ["O Project E é um mod de transfiguração de itens através de EMCs, você consegue transformar praticamente todos os itens do jogo em outros."]
+		id: "7777A712D00F122C"
+		subtitle: "Em Desenvolvimento"
+		tasks: [{
+			id: "0F2AD01A1745AC7A"
+			title: "Project E"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Project E"
+}
