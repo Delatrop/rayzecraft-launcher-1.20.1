@@ -1,9 +1,11 @@
 {
-    "game_directory": "C://rayzecraft//rayzecraft-main",
+    "game_directory": "C:\\Users\\Delatro\\Desktop\\RayzeCraft Launcher ultima versão",
+    "minecraft_version": "1.20.1",
+    "forge_version": "1.20.1-forge-47.2.0",
+    "java_runtime": "java-runtime-gamma",
     "download_url": "https://github.com/mayk-dev/rayzecraft/archive/refs/heads/main.zip",
     "temp_zip": "rayzecraft-main.zip",
     "player_name": "Delatro",
     "ram": "7000",
-    "minecraft_version": "1.20.1",
-    "forge_version": "47.2.0"
+    "theme": "dark"
 }

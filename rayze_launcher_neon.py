@@ -44,9 +44,9 @@ class RayzeCraftLauncher:
         # Configurações
         self.config_file = "launcher_config.json"
         self.config = {
-            "game_directory": "C://rayzecraft//rayzecraft-main",
-            "download_url": "https://github.com/mayk-dev/rayzecraft/archive/refs/heads/main.zip",
-            "temp_zip": "rayzecraft-main.zip",
+            "game_directory": "C://rayzecraft//rayzecraft-launcher-1.20.1-main",
+            "download_url": "https://github.com/Delatrop/rayzecraft-launcher-1.20.1/archive/refs/heads/main.zip",
+            "temp_zip": "rayzecraft-launcher-1.20.1-main.zip",
             "player_name": "",
             "ram": str(self.default_ram),
             "theme": "dark"
@@ -1107,26 +1107,51 @@ class RayzeCraftLauncher:
     def check_game_status(self):
         """Verifica o status atual do jogo"""
         try:
-            if os.path.exists(self.config["game_directory"]):
-                self.status_label.configure(
-                    text="✅ Jogo instalado e pronto!",
-                    text_color="#00ff88"
-                )
-                self.game_status_label.configure(
-                    text="✅ Pronto para Jogar",
-                    text_color="#00ff88"
-                )
-                self.main_button.configure(text="🚀 INICIAR JOGO")
+            game_dir = self.config["game_directory"]
+            
+            # Verificar se o jogo foi baixado do GitHub
+            if os.path.exists(game_dir):
+                # Verificar se as pastas essenciais existem
+                essential_dirs = ["config", "mods", "kubejs", "resourcepacks", "shaderpacks"]
+                essential_files = ["rayze_launcher_neon.py", "launcher_config.json"]
+                
+                all_dirs_exist = all(os.path.exists(os.path.join(game_dir, d)) for d in essential_dirs)
+                all_files_exist = all(os.path.exists(os.path.join(game_dir, f)) for f in essential_files)
+                
+                if all_dirs_exist and all_files_exist:
+                    # Contar mods para mostrar informação adicional
+                    mods_dir = os.path.join(game_dir, "mods")
+                    mod_count = len([f for f in os.listdir(mods_dir) if f.endswith('.jar')]) if os.path.exists(mods_dir) else 0
+                    
+                    self.status_label.configure(
+                        text=f"✅ Minecraft 1.20.1 pronto! ({mod_count} mods carregados)",
+                        text_color="#00ff88"
+                    )
+                    self.game_status_label.configure(
+                        text="✅ Pronto para Jogar",
+                        text_color="#00ff88"
+                    )
+                    self.main_button.configure(text="🚀 INICIAR JOGO")
+                else:
+                    self.status_label.configure(
+                        text="⚠️ Instalação incompleta - necessário baixar",
+                        text_color="#ffaa00"
+                    )
+                    self.game_status_label.configure(
+                        text="⏳ Download necessário",
+                        text_color="#ffaa00"
+                    )
+                    self.main_button.configure(text="📥 BAIXAR JOGO")
             else:
                 self.status_label.configure(
-                    text="❌ Jogo não instalado",
+                    text="❌ Jogo não encontrado - clique para baixar",
                     text_color="#ff4444"
                 )
                 self.game_status_label.configure(
-                    text="⏳ Aguardando Instalação",
+                    text="⏳ Download necessário",
                     text_color="#ffaa00"
                 )
-                self.main_button.configure(text="📥 INSTALAR JOGO")
+                self.main_button.configure(text="📥 BAIXAR JOGO")
                 
         except Exception as e:
             self.logger.error(f"Erro ao verificar status: {str(e)}")
@@ -1227,7 +1252,7 @@ class RayzeCraftLauncher:
     def launch_game(self):
         """Inicia o jogo - Baseado nos logs do launcher funcional"""
         try:
-            game_dir = self.config["game_directory"]
+            game_dir = "C:\\Users\\Delatro\\Desktop\\RayzeCraft Launcher ultima versão"
             
             if not os.path.exists(game_dir):
                 messagebox.showerror("Erro", "Diretório do jogo não encontrado!")
